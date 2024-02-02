@@ -24,7 +24,7 @@ let imghandler=document.querySelector('input[type="file"]');
 class Product{
     constructor(name, price, image, description){
         this.name = name;
-        this.price = price;
+        this.price = parseFloat(price).toFixed(2);
         this.image = image;
         this.description = description;
     }
