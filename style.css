@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:#878787;
+}
+/* Container */
+.container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    gap: 8px;
+}
+/* Add product */
+.add_product{
+    min-width: 45%;
+    background-color: white;
+    border: 1px solid #ccc;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+
+/* Add product h1 */
+.add_product p{
+    font-size: 30px;
+}
+
+/* Add product form */
+.add_product .form_div{
+    width: 100%;
+    padding: 2px 5px;
+    border: 1px solid rgba(94, 98, 102, 0.562);
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+
+}
+/* form-group*/
+.form_grp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* form-group label */
+.form_grp label{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+   
+}
+.form_grp input:focus,.form_grp textarea:focus{
+    box-shadow: 1px 1px 4px rgb(160, 89, 226),-1px -1px 4px rgb(151, 67, 230);
+}
+
+/* Add product input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.add_product input, .add_product textarea{
+    width: 100%;
+    padding: 10px 2px;
+    font-size: 18px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    
+    outline: none;
+}
+/* choose button */
+input[type="file"]::file-selector-button {
+    border-radius: 4px;
+    padding: 0 8px;
+    height: 35px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+    cursor: pointer;
+  }
+  
+  /* file upload button hover state */
+  input[type="file"]::file-selector-button:hover {
+    background-color: #cdd2dd;
+  }
+  
+  /* file upload button active state */
+  input[type="file"]::file-selector-button:active {
+    background-color: #e5e7eb;
+  }
+
+
+/* Add product */
+.add_product #submit{
+    display: inline-block;
+    color:blueviolet;
+    margin: 5px auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: blueviolet;
+    color: wheat;
+}
+
+/* Product Details */
+.product{
+    min-width: 49%;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.product h1{
+    color: white;
+    text-align: center;
+}
+.product_details{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+}
+.product_details table{
+    box-sizing: border-box;
+    margin: auto;
+    
+    border-collapse: collapse;
+}
+
+.product_details table thead tr th{
+    font-size: 18px;
+    padding: 6px;
+}
+.product_details table tbody{
+    font-size: 18px;
+    padding: 6px;
+    border-top: 2px solid rgb(87, 85, 85);
+   
+}
+.product_details table tbody tr td{
+    font-size: 18px;
+    padding: 6px;
+    width: 100px;
+    height: 75px;
+    overflow: hidden;
+    
+    
+}
+
+
+.product_details table tbody .btn{
+    font-size: 18px;
+    padding: 6px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit{
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 50%;
+    
+}
+.edit:hover{
+    color: rgb(127, 170, 41);
+    cursor: pointer;
+}
+
+.delete{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.delete:hover{
+  color: rgb(238, 64, 64);
+  cursor: pointer;  
+}
