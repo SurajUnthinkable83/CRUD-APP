@@ -156,16 +156,30 @@ input[type="file"]::file-selector-button {
     border-top: 2px solid rgb(87, 85, 85);
    
 }
+.product-details table thead tr th:nth-child(3){
+    padding-left: 5px; 
+    text-align: left;
+}
+
+.product-details table thead tr th:nth-child(4){
+    text-align:right;
+    padding-right:5px;
+}
 .product-details table tbody tr td{
     font-size: 18px;
     padding: 6px;
     width: 100px;
     height: 75px;
-    overflow: hidden;
-    
-    
+    overflow: hidden;   
 }
-
+.product-details table tbody tr td:nth-child(3){
+    padding-left: 5px; 
+    text-align: left;
+}
+.product-details table tbody tr td:nth-child(4){
+    text-align:right;
+    padding-right:5px;
+}
 
 .product-details table tbody .btn{
     font-size: 18px;

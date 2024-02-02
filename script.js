@@ -83,8 +83,8 @@ function upadelist(){
      list += `<tr>
                 <td>${index+1}</td>
                 <td>${product.name}</td>
-                <td style="text-align:left;padding-left:5px;">${product.description}</td>
-                <td style="text-align:right;padding-right:5px;">${product.price}</td>
+                <td >${product.description}</td>
+                <td >${product.price}</td>
                 <td>
                 <img src="${product.image}" alt="" width="50px" height="50px">
                 </td>
