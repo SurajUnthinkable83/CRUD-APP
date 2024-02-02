@@ -18,7 +18,7 @@ body{
     gap: 8px;
 }
 /* Add product */
-.add_product{
+.add-product{
     min-width: 45%;
     background-color: white;
     border: 1px solid #ccc;
@@ -33,12 +33,12 @@ body{
 }
 
 /* Add product h1 */
-.add_product p{
+.add-product p{
     font-size: 30px;
 }
 
 /* Add product form */
-.add_product .form_div{
+.add-product .form-div{
     width: 100%;
     padding: 2px 5px;
     border: 1px solid rgba(94, 98, 102, 0.562);
@@ -49,7 +49,7 @@ body{
 
 }
 /* form-group*/
-.form_grp{
+.form-grp{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,13 +57,13 @@ body{
 }
 
 /* form-group label */
-.form_grp label{
+.form-grp label{
     font-size: 16px;
     font-weight: 600;
     margin: 5px 0;
    
 }
-.form_grp input:focus,.form_grp textarea:focus{
+.form-grp input:focus,.form-grp textarea:focus{
     box-shadow: 1px 1px 4px rgb(160, 89, 226),-1px -1px 4px rgb(151, 67, 230);
 }
 
@@ -73,7 +73,7 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-.add_product input, .add_product textarea{
+.add-product input, .add-product textarea{
     width: 100%;
     padding: 10px 2px;
     font-size: 18px;
@@ -110,7 +110,7 @@ input[type="file"]::file-selector-button {
 
 
 /* Add product */
-.add_product #submit{
+.add-product #submit{
     display: inline-block;
     color:blueviolet;
     margin: 5px auto;
@@ -133,30 +133,30 @@ input[type="file"]::file-selector-button {
     color: white;
     text-align: center;
 }
-.product_details{
+.product-details{
     text-align: center;
     background-color: white;
     width: 100%;
     border-radius: 5px;
 }
-.product_details table{
+.product-details table{
     box-sizing: border-box;
     margin: auto;
     
     border-collapse: collapse;
 }
 
-.product_details table thead tr th{
+.product-details table thead tr th{
     font-size: 18px;
     padding: 6px;
 }
-.product_details table tbody{
+.product-details table tbody{
     font-size: 18px;
     padding: 6px;
     border-top: 2px solid rgb(87, 85, 85);
    
 }
-.product_details table tbody tr td{
+.product-details table tbody tr td{
     font-size: 18px;
     padding: 6px;
     width: 100px;
@@ -167,7 +167,7 @@ input[type="file"]::file-selector-button {
 }
 
 
-.product_details table tbody .btn{
+.product-details table tbody .btn{
     font-size: 18px;
     padding: 6px;
     border: 1px solid blueviolet;
